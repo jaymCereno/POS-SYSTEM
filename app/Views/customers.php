@@ -8,13 +8,24 @@
 <h1>Customer Accounts</h1>
 
 <nav>
-    /Home</a> |
-    /aboutAbout</a> |
-    /customersCustomers</a> |
-    /usersUsers</a>
-</nav>
 
-<hr>
+    <button onclick="window.location.href='<?= site_url('/'); ?>'">
+        Home
+    </button>
+
+    <button onclick="window.location.href='<?= site_url('about'); ?>'">
+        About
+    </button>
+
+    <button onclick="window.location.href='<?= site_url('customers'); ?>'">
+        Customers
+    </button>
+
+    <button onclick="window.location.href='<?= site_url('users'); ?>'">
+        Users
+    </button>
+
+</nav>
 
 <table border="1" cellpadding="10">
     <tr>
